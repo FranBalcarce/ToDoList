@@ -35,7 +35,6 @@ const ToDoApp = () => {
                   onChange={handleInputChange}
                 />
               </label>
-
               <button type="button" onClick={handleAddTask}>
                 Agregar Tarea
               </button>
