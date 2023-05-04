@@ -2,11 +2,12 @@ import ToDoList from "./components/ToDoList";
 import ToDoApp from "./components/toDoApp";
 
 function App() {
-  return;
-  <>
-    <ToDoList />
-    <ToDoApp />
-  </>;
+  return (
+    <>
+      <ToDoList />
+      <ToDoApp />
+    </>
+  );
 }
 
 export default App;
